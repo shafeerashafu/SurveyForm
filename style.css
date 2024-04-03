@@ -1,0 +1,95 @@
+body > table{
+    width: 80%;
+}
+
+table.list{
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .radio{
+    text-align: center;
+  }
+
+
+input[type=text], input[type=number] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=email]{
+    width: 43%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form div.form-action-buttons{
+    text-align: right;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;   
+}
+label.validation-error{
+    color: red;
+    margin-left: 5px;
+}
+.hide{
+    display: none;
+}
+.flex{
+    
+    background-color: aliceblue;
+}
+.red-color{
+    color: red;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+.checked {
+    color: orange;
+}
+.margin{
+    margin-bottom: 0.5%;
+}
+.margin-near{
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+.textarea{
+    width:100%;
+}
+.btn{
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    background-color: #e7e7e7; 
+    color: black;
+    padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border:none;
+}   
